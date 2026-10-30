@@ -11,7 +11,7 @@ dependencies:
     sdk: flutter
   google_mobile_ads: ^4.0.0
   cached_network_image: ^3.3.0
-  wallpaper_manager_flutter: ^1.0.3
+  wallpaper_manager_flutter: ^1.0.1
   share_plus: ^8.0.3
   path_provider: ^2.1.2
   http: ^1.2.0
