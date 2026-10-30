@@ -50,7 +50,7 @@ class PreviewScreen extends StatelessWidget {
   PreviewScreen({required this.imageUrl});
   Future<void> _setWallpaper(BuildContext context) async {
     try {
-      await WallpaperManagerFlutter().setWallpaper(imageUrl, WallpaperManagerFlutter.HOME_SCREEN);
+      await WallpaperManagerFlutter().setWallpaper(imageUrl, 1);
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Wallpaper applied!')));
     } catch(e) {
       ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text('Failed: $e')));
