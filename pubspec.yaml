@@ -1,0 +1,20 @@
+name: wallpapers_4k_hd
+description: Wallpapers 4K HD - 100% Online
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^4.0.0
+  cached_network_image: ^3.3.0
+  wallpaper_manager_flutter: ^1.0.3
+  share_plus: ^8.0.3
+  path_provider: ^2.1.2
+  http: ^1.2.0
+
+flutter:
+  uses-material-design: true
